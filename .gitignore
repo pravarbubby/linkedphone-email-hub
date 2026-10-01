@@ -1,0 +1,12 @@
+# Publish only the email hub and the files it loads.
+/*
+!/index.html
+!/.gitignore
+!/.nojekyll
+!/assets/
+!/emails/
+/emails/*
+!/emails/index.html
+!/emails/assets/
+!/emails/v[1-8]/
+.DS_Store

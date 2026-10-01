@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "01-day-1a-welcome-trial-started",
+    "subject": "Welcome to LinkedPhone. Your free trial has started!",
+    "dir": "onboarding",
+    "hero": "hero-welcome"
+  },
+  {
+    "slug": "02-day-1b-first-call",
+    "subject": "Let's make your first call with LinkedPhone!",
+    "dir": "onboarding",
+    "hero": "hero-first-call"
+  },
+  {
+    "slug": "03-day-2-business-greetings",
+    "subject": "Welcome your callers with professional business greetings.",
+    "dir": "onboarding",
+    "hero": "hero-greetings"
+  },
+  {
+    "slug": "04-day-3-auto-attendant",
+    "subject": "Send every call to the right place, automatically.",
+    "dir": "onboarding",
+    "hero": "hero-auto-attendant"
+  },
+  {
+    "slug": "05-day-4-team",
+    "subject": "One number. Your whole team.",
+    "dir": "onboarding",
+    "hero": "hero-team"
+  },
+  {
+    "slug": "06-day-5-more-features",
+    "subject": "There’s a lot more you can do with LinkedPhone.",
+    "dir": "onboarding",
+    "hero": "hero-features"
+  },
+  {
+    "slug": "01-quick-start-tips",
+    "subject": "Quick start tips for your new business number",
+    "dir": "onboarding",
+    "hero": "hero-quick-start"
+  },
+  {
+    "slug": "02-free-trial-has-started",
+    "subject": "Your LinkedPhone free trial has started",
+    "dir": "transactional",
+    "hero": "hero-02-free-trial-has-started"
+  },
+  {
+    "slug": "03-youve-been-added",
+    "subject": "You've been added to LinkedPhone",
+    "dir": "transactional",
+    "hero": "hero-03-youve-been-added"
+  },
+  {
+    "slug": "04-10dlc-registration-required",
+    "subject": "Action required: register your number for texting (10DLC)",
+    "dir": "transactional",
+    "hero": "hero-04-10dlc-registration-required"
+  },
+  {
+    "slug": "05-toll-free-registration-required",
+    "subject": "Action required: register your toll-free number for texting",
+    "dir": "transactional",
+    "hero": "hero-05-toll-free-registration-required"
+  },
+  {
+    "slug": "06-number-porting-request",
+    "subject": "We've received your number porting request",
+    "dir": "transactional",
+    "hero": "hero-06-number-porting-request"
+  },
+  {
+    "slug": "07-mms-unsupported-file-type",
+    "subject": "That file type couldn't be sent",
+    "dir": "transactional",
+    "hero": "hero-07-mms-unsupported-file-type"
+  },
+  {
+    "slug": "08-ticket-assigned-to-you",
+    "subject": "A ticket was assigned to you: {{ticket_subject}}",
+    "dir": "transactional",
+    "hero": "hero-08-ticket-assigned-to-you"
+  },
+  {
+    "slug": "09-receipt",
+    "subject": "Your LinkedPhone receipt — {{billing_period}}",
+    "dir": "transactional",
+    "hero": "hero-09-receipt"
+  },
+  {
+    "slug": "10-subscription-updated",
+    "subject": "Your LinkedPhone subscription was updated",
+    "dir": "transactional",
+    "hero": "hero-10-subscription-updated"
+  },
+  {
+    "slug": "11-voicemail-alert",
+    "subject": "New voicemail from {{caller_name}}",
+    "dir": "transactional",
+    "hero": "hero-11-voicemail-alert"
+  },
+  {
+    "slug": "12-payment-failed",
+    "subject": "We couldn't process your payment",
+    "dir": "transactional",
+    "hero": "hero-12-payment-failed"
+  },
+  {
+    "slug": "13-subscription-canceled",
+    "subject": "Your LinkedPhone subscription has been canceled",
+    "dir": "transactional",
+    "hero": "hero-13-subscription-canceled"
+  },
+  {
+    "slug": "14-goodbye-for-now",
+    "subject": "Goodbye for now",
+    "dir": "transactional",
+    "hero": "hero-14-goodbye-for-now"
+  },
+  {
+    "slug": "15-text-message-alert",
+    "subject": "New text from {{sender_name}}",
+    "dir": "transactional",
+    "hero": "hero-15-text-message-alert"
+  },
+  {
+    "slug": "16-one-time-passcode",
+    "subject": "Your LinkedPhone verification code",
+    "dir": "transactional",
+    "hero": "hero-16-one-time-passcode"
+  },
+  {
+    "slug": "17-password-reset",
+    "subject": "Reset your LinkedPhone password",
+    "dir": "transactional",
+    "hero": "hero-17-password-reset"
+  },
+  {
+    "slug": "18-verify-new-email",
+    "subject": "Confirm your new email address",
+    "dir": "transactional",
+    "hero": "hero-18-verify-new-email"
+  }
+]

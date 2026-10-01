@@ -1,0 +1,98 @@
+{
+ "permissions": [
+  360,
+  318
+ ],
+ "hours": [
+  360,
+  380
+ ],
+ "notification": [
+  360,
+  312
+ ],
+ "greeting-intro": [
+  360,
+  356
+ ],
+ "greeting-business": [
+  360,
+  343
+ ],
+ "greeting-after": [
+  360,
+  360
+ ],
+ "menu-builder": [
+  360,
+  380
+ ],
+ "business-info": [
+  360,
+  349
+ ],
+ "team-directory": [
+  360,
+  361
+ ],
+ "team-invite": [
+  360,
+  370
+ ],
+ "shared-number": [
+  360,
+  380
+ ],
+ "shared-inbox": [
+  360,
+  380
+ ],
+ "auto-replies": [
+  360,
+  327
+ ],
+ "ai-replies": [
+  360,
+  303
+ ],
+ "lisa": [
+  360,
+  363
+ ],
+ "call-summary": [
+  360,
+  380
+ ],
+ "recording": [
+  360,
+  380
+ ],
+ "transfer": [
+  360,
+  380
+ ],
+ "tickets": [
+  360,
+  380
+ ],
+ "port-live": [
+  360,
+  364
+ ],
+ "numbers": [
+  360,
+  315
+ ],
+ "voicemail": [
+  360,
+  380
+ ],
+ "basic-setup": [
+  360,
+  298
+ ],
+ "overview": [
+  360,
+  342
+ ]
+}

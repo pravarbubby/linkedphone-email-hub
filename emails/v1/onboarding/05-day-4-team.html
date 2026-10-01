@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>One number. Your whole team.</title>
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings>
+    <o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings></xml></noscript>
+  <style>
+    /* Outlook/Windows has no webfonts - pin a clean metric fallback so the
+       layout does not reflow into Times New Roman. */
+    *{font-family:'Segoe UI',Arial,sans-serif!important;}
+    table{border-collapse:collapse;}
+  </style>
+  <![endif]-->
+  <style>
+    /* ---- client resets ---- */
+    body,table,td,a{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+    table,td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
+    img{-ms-interpolation-mode:bicubic;border:0;height:auto;line-height:100%;outline:none;text-decoration:none;display:block;}
+    table{border-collapse:separate;border-spacing:0;}
+    body{margin:0!important;padding:0!important;width:100%!important;height:100%!important;}
+    a{text-decoration:none;}
+    td,p,h1,h2,h3{overflow-wrap:anywhere;}
+    .sm-btn{box-sizing:border-box;}
+    a[x-apple-data-detectors],.unstyle-auto-detected-links a,.aBn{
+      color:inherit!important;text-decoration:none!important;font-size:inherit!important;
+      font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important;
+      border-bottom:0!important;}
+    u+#body a,#MessageViewBody a{color:inherit;text-decoration:none;font-size:inherit;font-family:inherit;font-weight:inherit;line-height:inherit;}
+    .ExternalClass{width:100%;}
+    .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:100%;}
+
+    /* ---- dark-mode asset swap (logo + every placeholder) ---- */
+    .dk-only{display:none;mso-hide:all;}
+
+    /* ---- responsive: phones ---- */
+    @media screen and (max-width:600px){
+      .sm-full{width:100%!important;max-width:100%!important;}
+      .sm-stack{display:block!important;width:100%!important;max-width:100%!important;
+                padding-left:0!important;padding-right:0!important;box-sizing:border-box!important;}
+      .sm-stack-gap{padding-bottom:12px!important;}
+      .sm-px{padding-left:20px!important;padding-right:20px!important;}
+      .sm-outer{padding-left:0px!important;padding-right:0px!important;}
+      /* images keep their intrinsic ratio at every width - never a fixed height */
+      .sm-img{width:100%!important;height:auto!important;max-width:100%!important;}
+      /* Phone instruction panels: full-width artwork follows the copy. */
+      .sm-media-img{display:block!important;width:100%!important;max-width:100%!important;padding:20px 0 0!important;box-sizing:border-box!important;}
+      .sm-media-img img{width:100%!important;height:auto!important;max-width:100%!important;}
+      .sm-media-txt{display:block!important;width:100%!important;padding:0!important;box-sizing:border-box!important;}
+      .sm-step-pad{padding:20px!important;}
+      .hero-desktop{display:none!important;}
+      .hero-mobile{display:block!important;max-height:none!important;overflow:visible!important;}
+      .sm-hero-title{padding:24px 20px 12px!important;}
+      .sm-stat{font-size:14px!important;}
+      .sm-hero{font-size:28px!important;}
+      .sm-h1{font-size:27px!important;}
+      .sm-h2{font-size:22px!important;}
+      .sm-deck{font-size:16px!important;}
+      .sm-btn{display:block!important;width:100%!important;text-align:center!important;}
+      .sm-center{text-align:center!important;}
+      .sm-hide{display:none!important;}
+      .sm-store img{max-width:100%!important;height:auto!important;}
+      .sm-pt-lg{padding-top:20px!important;}
+    }
+
+    @media screen and (max-width:350px){.sm-store{display:block!important;padding:0 0 8px!important;}}
+    /* ---- dark mode ---- */
+    @media (prefers-color-scheme:dark){
+      .dm-canvas{background-color:#000000!important;}
+      .dm-step-number{background-color:#ffffff!important;color:#000000!important;}
+      .dm-note{background-color:#171a2b!important;}
+      .dm-card{background-color:#000000!important;}
+      .dm-surface{background-color:#171a2b!important;}
+      .dm-tile{background-color:#2d2f41!important;}
+      .dm-stroke{border-color:#2d2f41!important;}
+      .dm-divider{background-color:#2d2f41!important;}
+      .dm-text{color:#ffffff!important;}
+      .dm-text-2{color:#c4c5dc!important;}
+      .dm-text-3{color:#8d8fa5!important;}
+      .dm-accent{color:#6680ff!important;}
+      .dm-btn{background-color:#8095ff!important;}
+      .dm-btn-label{color:#000000!important;}
+      .dm-img-card{background-color:#2d2f41!important;}
+      /* status surfaces need their own dark values - the Messaging/* and
+         Others/Accent tokens flip completely between modes */
+      .dm-st-success{background-color:#132e05!important;border-color:#1b3807!important;}
+      .dm-st-warning{background-color:#271902!important;border-color:#4f3709!important;}
+      .dm-st-error{background-color:#3b0804!important;border-color:#60130a!important;}
+      .dm-st-info{background-color:#09123f!important;border-color:#243cb2!important;}
+      .dm-sb-success{border-left-color:#429f00!important;}
+      .dm-sb-warning{border-left-color:#dca131!important;}
+      .dm-sb-error{border-left-color:#fa5b43!important;}
+      .dm-sb-info{border-left-color:#6680ff!important;}
+      .dm-stt-success{color:#f1fee1!important;}
+      .dm-stt-warning{color:#fdefdd!important;}
+      .dm-stt-error{color:#fceeeb!important;}
+      .dm-stt-info{color:#ffffff!important;}
+      .lt-only{display:none!important;}
+      .dk-only{display:block!important;mso-hide:none;}
+      .dm-btn2{background-color:#2d2f41!important;}
+      .dm-btn2-label{color:#ffffff!important;}
+    }
+    [data-ogsc] .dm-canvas{background-color:#000000!important;}
+    [data-ogsc] .dm-step-number{background-color:#ffffff!important;color:#000000!important;}
+    [data-ogsc] .dm-note{background-color:#171a2b!important;}
+    [data-ogsc] .dm-card{background-color:#000000!important;}
+    [data-ogsc] .dm-surface{background-color:#171a2b!important;}
+    [data-ogsc] .dm-tile{background-color:#2d2f41!important;}
+    [data-ogsc] .dm-stroke{border-color:#2d2f41!important;}
+    [data-ogsc] .dm-divider{background-color:#2d2f41!important;}
+    [data-ogsc] .dm-text{color:#ffffff!important;}
+    [data-ogsc] .dm-text-2{color:#c4c5dc!important;}
+    [data-ogsc] .dm-text-3{color:#8d8fa5!important;}
+    [data-ogsc] .dm-accent{color:#6680ff!important;}
+    [data-ogsc] .dm-btn{background-color:#8095ff!important;}
+    [data-ogsc] .dm-btn-label{color:#000000!important;}
+    [data-ogsc] .dm-img-card{background-color:#2d2f41!important;}
+    [data-ogsc] .dm-st-success{background-color:#132e05!important;border-color:#1b3807!important;}
+    [data-ogsc] .dm-st-warning{background-color:#271902!important;border-color:#4f3709!important;}
+    [data-ogsc] .dm-st-error{background-color:#3b0804!important;border-color:#60130a!important;}
+    [data-ogsc] .dm-st-info{background-color:#09123f!important;border-color:#243cb2!important;}
+    [data-ogsc] .dm-sb-success{border-left-color:#429f00!important;}
+    [data-ogsc] .dm-sb-warning{border-left-color:#dca131!important;}
+    [data-ogsc] .dm-sb-error{border-left-color:#fa5b43!important;}
+    [data-ogsc] .dm-sb-info{border-left-color:#6680ff!important;}
+    [data-ogsc] .dm-stt-success{color:#f1fee1!important;}
+    [data-ogsc] .dm-stt-warning{color:#fdefdd!important;}
+    [data-ogsc] .dm-stt-error{color:#fceeeb!important;}
+    [data-ogsc] .dm-stt-info{color:#ffffff!important;}
+    [data-ogsc] .lt-only{display:none!important;}
+    [data-ogsc] .dk-only{display:block!important;}
+    [data-ogsc] .dm-btn2{background-color:#2d2f41!important;}
+    [data-ogsc] .dm-btn2-label{color:#ffffff!important;}
+</style>
+</head>
+<body id="body" class="dm-canvas" style="margin:0;padding:0;width:100%;background-color:#ffffff;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:#171a2b;-webkit-font-smoothing:antialiased">
+
+  <!-- Preheader: the grey line the inbox shows next to the subject. The
+       zero-width joiners stop the client from pulling body copy in after it. -->
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;color:transparent;">
+    Share calls, texts, and customer context.&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+  </div>
+
+  <table role="presentation" class="dm-canvas" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;width:100%">
+    <tr>
+      <td align="center" class="sm-outer" style="padding:24px 24px">
+        <!--[if mso]><table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+        <div style="max-width:600px;margin:0 auto;">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td align="center" class="sm-px" style="padding:8px 20px 28px;">
+      <a href="https://www.linkedphone.com" style="text-decoration:none;display:inline-block;">
+        <img class="lt-only" src="../assets/wordmark-light.png" width="158" height="23" alt="LinkedPhone" style="display:block;border:0;width:158px;height:23px;">
+        <img class="dk-only" src="../assets/wordmark-dark.png" width="158" height="23" alt="LinkedPhone" style="display:none;border:0;width:158px;height:23px;">
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table role="presentation" class="dm-card dm-stroke" width="100%" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;background-color:#ffffff;width:100%">
+  <tr><td>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="sm-px" style="padding:0 20px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="dm-surface" style="background:#eff0fe;border-radius:24px;overflow:hidden;">
+<tr><td class="sm-hero-title" align="center" style="padding:28px 28px 12px;"><h1 class="dm-text sm-h1" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:32px;line-height:1.2;font-weight:600;color:#171a2b;padding-bottom:0px">One number. Your whole team.</h1></td></tr>
+<tr><td style="font-size:0;line-height:0;"><div class="hero-desktop">
+<!-- IMAGE PLACEHOLDER [hero] Shared inbox hero (560x260, 28:13)
+     Swap BOTH src values for the final artwork, exported at 2x (1120x520):
+       light  ->  https://YOUR-CDN/shared-inbox-hero.png
+       dark   ->  https://YOUR-CDN/shared-inbox-hero-dark.png
+     Keep the width and height attributes exactly as they are - they are what
+     stop the layout reflowing while the image loads.
+     If you only have one version, delete the second (.dk-only) image tag and
+     drop the .lt-only class; the remaining one shows in both themes.
+-->
+<img class="lt-only sm-img" src="../assets/img/ph-hero-shared-inbox-hero.png" width="560" height="260" alt="LinkedPhone Shared inbox product illustration" style="display:block;width:100%;max-width:560px;height:auto;border:0">
+<img class="dk-only sm-img" src="../assets/img/ph-hero-shared-inbox-hero-dark.png" width="560" height="260" alt="LinkedPhone Shared inbox product illustration" style="display:block;width:100%;max-width:560px;height:auto;border:0;display:none;"></div><!--[if !mso]><!--><div class="hero-mobile" style="display:none;max-height:0;overflow:hidden;mso-hide:all;">
+<!-- IMAGE PLACEHOLDER [hero] Shared inbox hero mobile (335x260, 28:13)
+     Swap BOTH src values for the final artwork, exported at 2x (670x520):
+       light  ->  https://YOUR-CDN/shared-inbox-hero-mobile.png
+       dark   ->  https://YOUR-CDN/shared-inbox-hero-mobile-dark.png
+     Keep the width and height attributes exactly as they are - they are what
+     stop the layout reflowing while the image loads.
+     If you only have one version, delete the second (.dk-only) image tag and
+     drop the .lt-only class; the remaining one shows in both themes.
+-->
+<img class="lt-only sm-img" src="../assets/img/ph-hero-shared-inbox-hero-mobile.png" width="335" height="260" alt="LinkedPhone Shared inbox product illustration" style="display:block;width:100%;max-width:335px;height:auto;border:0">
+<img class="dk-only sm-img" src="../assets/img/ph-hero-shared-inbox-hero-mobile-dark.png" width="335" height="260" alt="LinkedPhone Shared inbox product illustration" style="display:block;width:100%;max-width:335px;height:auto;border:0;display:none;"></div><!--<![endif]--></td></tr>
+</table></td></tr></table>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr><td class="sm-px" style="padding-top:28px;padding-bottom:0px;padding-left:20px;padding-right:20px;word-break:break-word">
+<p class="dm-text" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.2;font-weight:500;color:#171a2b;padding-bottom:16px">Hi {{first_name}},</p><p class="dm-text-2 sm-deck" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">LinkedPhone works whether you’re solo or running a team. With a team, it’s easy to pick up where someone else left off.<br><br>Your team can share one business phone number for calls, texts, and customer service. Everyone stays connected, and customer context stays in one place.</p>
+  </td></tr>
+</table>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr><td class="sm-px" style="padding-top:24px;padding-bottom:0px;padding-left:20px;padding-right:20px;word-break:break-word">
+<h2 class="dm-text sm-h2" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:24px;line-height:1.2;font-weight:600;color:#171a2b;padding-top:0px;padding-bottom:16px">Here are three things to know:</h2>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td style="padding-bottom:24px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="dm-surface" style="background:#eff0fe;border-radius:20px;table-layout:fixed;">
+<tr><td class="sm-step-pad" style="padding:24px 24px 20px;text-align:left;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+<td width="44" valign="top" style="width:44px;padding-top:1px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" class="dm-step-number" width="28" height="28" style="background:#171a2b;color:#ffffff;border-radius:50%;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:28px;font-weight:600;">1</td></tr></table></td>
+<td valign="top"><h2 class="dm-text" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:20px;line-height:1.4;font-weight:600;color:#171a2b;padding-bottom:0;text-align:left">Add Team Members</h2></td>
+</tr></table>
+<div style="padding-top:16px;"><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">Invite the people who help you run your business. Each team member gets access to the mobile app and LinkedPhone Web.</p></div>
+
+</td></tr>
+<tr><td style="padding:0 16px 16px;font-size:0;line-height:0;">
+<!-- IMAGE PLACEHOLDER [thumb] Invite team screen (536x300, 134:75)
+     Swap BOTH src values for the final artwork, exported at 2x (1072x600):
+       light  ->  https://YOUR-CDN/invite-team-screen.png
+       dark   ->  https://YOUR-CDN/invite-team-screen-dark.png
+     Keep the width and height attributes exactly as they are - they are what
+     stop the layout reflowing while the image loads.
+     If you only have one version, delete the second (.dk-only) image tag and
+     drop the .lt-only class; the remaining one shows in both themes.
+-->
+<img class="lt-only sm-img" src="../assets/img/ph-thumb-invite-team-screen.png" width="536" height="300" alt="Illustration: Invite team screen" style="display:block;width:100%;max-width:536px;height:auto;border:0;border-radius:12px">
+<img class="dk-only sm-img" src="../assets/img/ph-thumb-invite-team-screen-dark.png" width="536" height="300" alt="Illustration: Invite team screen" style="display:block;width:100%;max-width:536px;height:auto;border:0;border-radius:12px;display:none;"></td></tr>
+</table></td></tr><tr><td style="padding-bottom:24px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="dm-surface" style="background:#eff0fe;border-radius:20px;table-layout:fixed;">
+<tr><td class="sm-step-pad" style="padding:24px 24px 20px;text-align:left;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+<td width="44" valign="top" style="width:44px;padding-top:1px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" class="dm-step-number" width="28" height="28" style="background:#171a2b;color:#ffffff;border-radius:50%;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:28px;font-weight:600;">2</td></tr></table></td>
+<td valign="top"><h2 class="dm-text" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:20px;line-height:1.4;font-weight:600;color:#171a2b;padding-bottom:0;text-align:left">Share Calls and Texts</h2></td>
+</tr></table>
+<div style="padding-top:16px;"><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">Your team can make and receive calls and send and receive texts, all from the same business number. Customers see one consistent number, no matter who on your team is helping them.</p></div>
+
+</td></tr>
+<tr><td style="padding:0 16px 16px;font-size:0;line-height:0;">
+<!-- IMAGE PLACEHOLDER [thumb] Shared number screen (536x300, 134:75)
+     Swap BOTH src values for the final artwork, exported at 2x (1072x600):
+       light  ->  https://YOUR-CDN/shared-number-screen.png
+       dark   ->  https://YOUR-CDN/shared-number-screen-dark.png
+     Keep the width and height attributes exactly as they are - they are what
+     stop the layout reflowing while the image loads.
+     If you only have one version, delete the second (.dk-only) image tag and
+     drop the .lt-only class; the remaining one shows in both themes.
+-->
+<img class="lt-only sm-img" src="../assets/img/ph-thumb-shared-number-screen.png" width="536" height="300" alt="Illustration: Shared number screen" style="display:block;width:100%;max-width:536px;height:auto;border:0;border-radius:12px">
+<img class="dk-only sm-img" src="../assets/img/ph-thumb-shared-number-screen-dark.png" width="536" height="300" alt="Illustration: Shared number screen" style="display:block;width:100%;max-width:536px;height:auto;border:0;border-radius:12px;display:none;"></td></tr>
+</table></td></tr><tr><td style="padding-bottom:24px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="dm-surface" style="background:#eff0fe;border-radius:20px;table-layout:fixed;">
+<tr><td class="sm-step-pad" style="padding:24px 24px 20px;text-align:left;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+<td width="44" valign="top" style="width:44px;padding-top:1px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" class="dm-step-number" width="28" height="28" style="background:#171a2b;color:#ffffff;border-radius:50%;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:28px;font-weight:600;">3</td></tr></table></td>
+<td valign="top"><h2 class="dm-text" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:20px;line-height:1.4;font-weight:600;color:#171a2b;padding-bottom:0;text-align:left">See the Full Context</h2></td>
+</tr></table>
+<div style="padding-top:16px;"><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">No more “let me catch you up.” Calls, texts, and voicemails come together in one shared inbox, so your team always has the full context. Everyone can see what happened, who responded, and who took the call, so anyone can pick up where someone else left off.</p></div>
+
+</td></tr>
+<tr><td style="padding:0 16px 16px;font-size:0;line-height:0;">
+<!-- IMAGE PLACEHOLDER [thumb] Shared inbox screen (536x300, 134:75)
+     Swap BOTH src values for the final artwork, exported at 2x (1072x600):
+       light  ->  https://YOUR-CDN/shared-inbox-screen.png
+       dark   ->  https://YOUR-CDN/shared-inbox-screen-dark.png
+     Keep the width and height attributes exactly as they are - they are what
+     stop the layout reflowing while the image loads.
+     If you only have one version, delete the second (.dk-only) image tag and
+     drop the .lt-only class; the remaining one shows in both themes.
+-->
+<img class="lt-only sm-img" src="../assets/img/ph-thumb-shared-inbox-screen.png" width="536" height="300" alt="Illustration: Shared inbox screen" style="display:block;width:100%;max-width:536px;height:auto;border:0;border-radius:12px">
+<img class="dk-only sm-img" src="../assets/img/ph-thumb-shared-inbox-screen-dark.png" width="536" height="300" alt="Illustration: Shared inbox screen" style="display:block;width:100%;max-width:536px;height:auto;border:0;border-radius:12px;display:none;"></td></tr>
+</table></td></tr>
+</table>
+<p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:16px">That's how a small team delivers service that feels big, coordinated, and personal.</p>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px;text-align:left;">
+<tr><td style="padding:12px 0 20px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="36" valign="middle"><img class="lt-only" src="../assets/img/icon-question.png" width="24" height="24" alt="" style="width:24px;height:24px;"><img class="dk-only" src="../assets/img/icon-question-dark.png" width="24" height="24" alt="" style="display:none;width:24px;height:24px;"></td><td><h2 class="dm-text sm-h2" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:24px;line-height:1.2;font-weight:600;color:#171a2b;padding-top:0px;padding-bottom:0px">Frequently asked questions</h2></td></tr></table></td></tr>
+<tr><td class="dm-stroke" style="padding:20px 0;border-top:1px solid #dfe1f8;">
+<h3 class="dm-text" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:18px;line-height:1.45;font-weight:600;color:#171a2b;padding-bottom:12px;text-align:left">What do team members have access to?</h3>
+<p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">Customer interactions are shared, including calls, texts, contacts, and tickets. Team members do not have access to admin controls like Auto Attendant and other business-level settings.</p></td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px;text-align:left;">
+
+<tr><td class="dm-stroke" style="padding:20px 0;border-top:1px solid #dfe1f8;">
+<h3 class="dm-text" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:18px;line-height:1.45;font-weight:600;color:#171a2b;padding-bottom:12px;text-align:left">What if a team member is off?</h3>
+<p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">Have the team member set their status to "Offline" in the app. If they use their phone's Do Not Disturb or Airplane Mode instead, their personal voicemail can answer the business call before it reaches the rest of your team.</p></td></tr></table>
+  </td></tr>
+</table>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr><td class="sm-px" style="padding-top:24px;padding-bottom:0px;padding-left:20px;padding-right:20px;word-break:break-word">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:0px;text-align:left;"><tr><td class="dm-stroke" style="border-top:1px solid #dfe1f8;padding:24px 0 8px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="60" valign="top" style="width:60px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td class="dm-surface" style="padding:12px;background:#eff0fe;border-radius:12px;"><img class="lt-only" src="../assets/img/icon-calendar.png" width="24" height="24" alt="" style="width:24px;height:24px;"><img class="dk-only" src="../assets/img/icon-calendar-dark.png" width="24" height="24" alt="" style="display:none;width:24px;height:24px;"></td></tr></table></td><td valign="top" style="text-align:left;"><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:6px"><strong class="dm-text" style="color:#171a2b;">Tomorrow</strong></p><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">Learn about the AI tools and time-savers that take the busywork off your plate.</p></td></tr></table>
+</td></tr></table>
+  </td></tr>
+</table>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr><td class="sm-px" style="padding-top:24px;padding-bottom:0px;padding-left:20px;padding-right:20px;word-break:break-word">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:0px;"><tr><td class="dm-stroke" style="border:1px solid #dfe1f8;border-radius:20px;padding:24px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td><img class="lt-only" src="../assets/img/icon-support.png" width="32" height="32" alt="" style="width:32px;height:32px;"><img class="dk-only" src="../assets/img/icon-support-dark.png" width="32" height="32" alt="" style="display:none;width:32px;height:32px;"></td><td align="right"><a href="https://www.linkedphone.com/quick-start-guide" aria-label="Open Quick Start Guide"><img class="lt-only" src="../assets/img/icon-arrow.png" width="24" height="24" alt="" style="width:24px;height:24px;"><img class="dk-only" src="../assets/img/icon-arrow-dark.png" width="24" height="24" alt="" style="display:none;width:24px;height:24px;"></a></td></tr></table>
+<h2 class="dm-text sm-h2" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:24px;line-height:1.2;font-weight:600;color:#171a2b;padding-top:18px;padding-bottom:10px">Want to go further?</h2>
+<p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px">Check out our <a href="https://www.linkedphone.com/quick-start-guide" class="dm-accent" style="color:#3356ff;text-decoration:underline;font-weight:500">Quick Start Guide</a> to go deeper or jump ahead to other settings.</p>
+</td></tr></table>
+  </td></tr>
+</table>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr><td class="sm-px" style="padding-top:28px;padding-bottom:32px;padding-left:20px;padding-right:20px;word-break:break-word">
+
+<h2 class="dm-text sm-h2" style="margin:0;font-family:'ES Rebond Grotesque','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:24px;line-height:1.2;font-weight:600;color:#171a2b;padding-top:0px;padding-bottom:8px">Need a hand?</h2><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:16px">We're here to help.</p>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0">
+<tr><td style="padding:0 10px 14px 0;"><img class="lt-only" src="../assets/img/icon-mail.png" width="20" height="20" alt="" style="width:20px;height:20px;"><img class="dk-only" src="../assets/img/icon-mail-dark.png" width="20" height="20" alt="" style="display:none;width:20px;height:20px;"></td><td style="padding-bottom:14px;"><a href="mailto:support@linkedphone.com" class="dm-accent" style="color:#3356ff;text-decoration:underline;font-weight:500">support@linkedphone.com</a></td></tr>
+<tr><td style="padding-right:10px;"><img class="lt-only" src="../assets/img/icon-call.png" width="20" height="20" alt="" style="width:20px;height:20px;"><img class="dk-only" src="../assets/img/icon-call-dark.png" width="20" height="20" alt="" style="display:none;width:20px;height:20px;"></td><td><a href="tel:+18775385888" class="dm-accent" style="color:#3356ff;text-decoration:underline;font-weight:500">+1 (877) 538-5888</a></td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="dm-stroke" style="padding-top:24px;"><div style="border-top:1px dashed #dfe1f8;" class="dm-stroke"></div></td></tr><tr><td style="padding-top:24px;"><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:12px">Glad to have you on board,</p><p class="dm-text-2" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;font-weight:400;color:#444658;padding-bottom:0px"><strong class="dm-text" style="color:#171a2b;">Team LinkedPhone</strong></p></td></tr></table>
+  </td></tr>
+</table>
+
+  </td></tr>
+</table>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="sm-px" style="padding:0 20px 24px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="dm-stroke" style="padding-top:24px;border-top:1px solid #dfe1f8;">
+<p class="dm-text-3" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;line-height:1.5;font-weight:400;color:#5c5d71;padding-bottom:10px">&copy; 2026 LinkedPhone. {{company_address}}</p>
+<p class="dm-text-3" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;line-height:1.5;font-weight:400;color:#5c5d71;padding-bottom:10px">This email was sent to {{email}} because you signed up to receive emails about LinkedPhone. If you do not wish to receive these emails, please <a href="{{unsubscribe_url}}" class="dm-text-3" style="color:#5c5d71;text-decoration:underline;">unsubscribe</a>.</p>
+<p class="dm-text-3" style="margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;line-height:1.5;font-weight:600;color:#5c5d71"><a href="{{preferences_url}}" class="dm-text-3" style="color:#5c5d71;">Manage Preferences</a> &middot; <a href="https://www.linkedphone.com/privacy-policy/" class="dm-text-3" style="color:#5c5d71;">Privacy Policy</a></p>
+</td></tr></table></td></tr></table>
+        </div>
+        <!--[if mso]></td></tr></table><![endif]-->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

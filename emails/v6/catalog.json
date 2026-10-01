@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "01-day-1a-welcome-trial-started",
+    "subject": "Welcome to LinkedPhone. Your free trial has started!",
+    "dir": "onboarding",
+    "hero": "hero-welcome"
+  },
+  {
+    "slug": "02-day-1b-first-call",
+    "subject": "Let's make your first call with LinkedPhone!",
+    "dir": "onboarding",
+    "hero": "hero-first-call"
+  },
+  {
+    "slug": "03-day-2-business-greetings",
+    "subject": "Welcome your callers with professional business greetings.",
+    "dir": "onboarding",
+    "hero": "hero-greetings"
+  },
+  {
+    "slug": "04-day-3-auto-attendant",
+    "subject": "Send every call to the right place, automatically.",
+    "dir": "onboarding",
+    "hero": "hero-auto-attendant"
+  },
+  {
+    "slug": "05-day-4-team",
+    "subject": "One number. Your whole team.",
+    "dir": "onboarding",
+    "hero": "hero-team"
+  },
+  {
+    "slug": "06-day-5-more-features",
+    "subject": "There’s a lot more you can do with LinkedPhone.",
+    "dir": "onboarding",
+    "hero": "hero-features"
+  },
+  {
+    "slug": "01-quick-start-tips",
+    "subject": "Quick Start Tips.",
+    "source": "Quick Start Tips..eml",
+    "dir": "onboarding",
+    "hero": "hero-quick-start"
+  },
+  {
+    "slug": "02-free-trial-has-started",
+    "subject": "Free Trial Has Started.",
+    "source": "Free Trial Has Started..eml",
+    "dir": "transactional",
+    "hero": "hero-02-free-trial-has-started"
+  },
+  {
+    "slug": "03-youve-been-added",
+    "subject": "You've Been Added To LinkedPhone",
+    "source": "You've Been Added To LinkedPhone.eml",
+    "dir": "transactional",
+    "hero": "hero-03-youve-been-added"
+  },
+  {
+    "slug": "04-10dlc-registration-required",
+    "subject": "10DLC Registration Required For Texting",
+    "source": "10DLC Registration Required For Texting.eml",
+    "dir": "transactional",
+    "hero": "hero-04-10dlc-registration-required"
+  },
+  {
+    "slug": "05-toll-free-registration-required",
+    "subject": "Toll Free Registration Required for Texting",
+    "source": "Toll Free Registration Required for Texting.eml",
+    "dir": "transactional",
+    "hero": "hero-05-toll-free-registration-required"
+  },
+  {
+    "slug": "06-number-porting-request",
+    "subject": "Number Porting Request",
+    "source": "Number Porting Request.eml",
+    "dir": "transactional",
+    "hero": "hero-06-number-porting-request"
+  },
+  {
+    "slug": "07-mms-unsupported-file-type",
+    "subject": "MMS Notification",
+    "source": "MMS Notification.eml",
+    "dir": "transactional",
+    "hero": "hero-07-mms-unsupported-file-type"
+  },
+  {
+    "slug": "08-ticket-assigned-to-you",
+    "subject": "Ticket Assigned To You - [#{{ticket_id}}] {{ticket_subject}}",
+    "source": "Ticket Assigned To You - [#3828] Scheduling time off request.eml",
+    "dir": "transactional",
+    "hero": "hero-08-ticket-assigned-to-you"
+  },
+  {
+    "slug": "09-receipt",
+    "subject": "LinkedPhone Receipt - {{billing_period}}",
+    "source": "LinkedPhone Receipt - July 2026.eml",
+    "dir": "transactional",
+    "hero": "hero-09-receipt"
+  },
+  {
+    "slug": "10-subscription-updated",
+    "subject": "LinkedPhone Subscription Updated Successfully!",
+    "source": "LinkedPhone Subscription Updated Successfully!.eml",
+    "dir": "transactional",
+    "hero": "hero-10-subscription-updated"
+  },
+  {
+    "slug": "11-voicemail-alert",
+    "subject": "Voicemail Alert: {{mailbox_name}}",
+    "source": "Voicemail Alert_ Sales.eml",
+    "dir": "transactional",
+    "hero": "hero-11-voicemail-alert"
+  },
+  {
+    "slug": "12-payment-failed",
+    "subject": "LinkedPhone Payment Failed, Unable To Renew Subscription",
+    "source": "LinkedPhone Payment Failed, Unable To Renew Subcription.eml",
+    "dir": "transactional",
+    "hero": "hero-12-payment-failed"
+  },
+  {
+    "slug": "13-subscription-canceled",
+    "subject": "Payment Failed, Subscription Canceled",
+    "source": "Payment Failed, Subscription Canceled.eml",
+    "dir": "transactional",
+    "hero": "hero-13-subscription-canceled"
+  },
+  {
+    "slug": "14-goodbye-for-now",
+    "subject": "Goodbye For Now...{{company_number}}",
+    "source": "Goodbye For Now...470-444-9134.eml",
+    "dir": "transactional",
+    "hero": "hero-14-goodbye-for-now"
+  },
+  {
+    "slug": "15-text-message-alert",
+    "subject": "Text Message Alert From: {{sender_number}}",
+    "source": "Text Message Alert From_ 1-956-597-3084.eml",
+    "dir": "transactional",
+    "hero": "hero-15-text-message-alert"
+  },
+  {
+    "slug": "19-apple-subscription-canceled",
+    "subject": "Apple Payment Failed, Subscription Canceled",
+    "source": "Apple Payment Failed, Subscription Canceled.eml",
+    "dir": "transactional",
+    "hero": "hero-13-subscription-canceled"
+  },
+  {
+    "slug": "20-google-subscription-canceled",
+    "subject": "Google Payment Failed, Subscription Canceled",
+    "source": "Google Payment Failed, Subscription Canceled.eml",
+    "dir": "transactional",
+    "hero": "hero-13-subscription-canceled"
+  }
+]

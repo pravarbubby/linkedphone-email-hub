@@ -1,0 +1,46 @@
+[
+  {
+    "asset": "ph-hero-welcome-hero.png",
+    "sources": [
+      "Design System/refs/Screens pngs/Inbox.png",
+      "Design System/refs/Screens pngs/Calls.png",
+      "Design System/refs/Screens pngs/Onboarding - Add Team members.png"
+    ],
+    "note": "Composed from supplied product screen exports; illustrative sample data, not customer account data."
+  },
+  {
+    "asset": "ph-hero-first-call-hero.png",
+    "sources": [
+      "Design System/refs/Screens pngs/Calls.png",
+      "Design System/refs/Screens pngs/Live Call.png",
+      "Design System/refs/Screens pngs/Contact Details.png"
+    ],
+    "note": "Composed from supplied product screen exports; illustrative sample data, not customer account data."
+  },
+  {
+    "asset": "ph-hero-shared-inbox-hero.png",
+    "sources": [
+      "Design System/refs/Screens pngs/Onboarding - Add Team members.png",
+      "Design System/refs/Screens pngs/Inbox.png",
+      "Design System/refs/Screens pngs/Chat Details.png"
+    ],
+    "note": "Composed from supplied product screen exports; illustrative sample data, not customer account data."
+  },
+  {
+    "asset": "ph-hero-feature-overview-hero.png",
+    "sources": [
+      "Design System/refs/Screens pngs/Tickets.png",
+      "Design System/refs/Screens pngs/Call Summary.png",
+      "Design System/refs/Screens pngs/Teach Lisa.png"
+    ],
+    "note": "Composed from supplied product screen exports; illustrative sample data, not customer account data."
+  },
+  {
+    "asset": "ph-hero-greetings-hero.png",
+    "note": "Original schematic audio illustration. Not an app screenshot."
+  },
+  {
+    "asset": "ph-hero-auto-attendant-hero.png",
+    "note": "Original schematic routing illustration. Not an app screenshot."
+  }
+]

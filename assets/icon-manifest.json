@@ -1,0 +1,130 @@
+[
+  {
+    "key": "call",
+    "name": "Call",
+    "source": "assets/icons/8-610.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "security",
+    "name": "Lock",
+    "source": "assets/icons/8-955.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "ticket",
+    "name": "Ticket 1",
+    "source": "assets/icons/8-604.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "team",
+    "name": "Team",
+    "source": "assets/icons/8-832.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "message",
+    "name": "Chat",
+    "source": "assets/icons/8-767.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "clock",
+    "name": "Clock",
+    "source": "assets/icons/8-1276.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "spark",
+    "name": "AI Call Star",
+    "source": "assets/icons/8-656.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "menu",
+    "name": "IVR Call / VR",
+    "source": "assets/icons/8-1605.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "billing",
+    "name": "Bank Card / Payment",
+    "source": "assets/icons/8-2360.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "greeting",
+    "name": "Microphone / Record",
+    "source": "assets/icons/8-1454.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "mail",
+    "name": "Mail",
+    "source": "assets/icons/8-1560.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "support",
+    "name": "Call love heart phone",
+    "source": "assets/icons/8-2274.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "arrow",
+    "name": "Arrow Up Right Diagonal",
+    "source": "assets/icons/8-2381.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "play",
+    "name": "Play",
+    "source": "assets/icons/8-1068.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "calendar",
+    "name": "Schedule / Calender",
+    "source": "assets/icons/8-1730.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  },
+  {
+    "key": "question",
+    "name": "Chat Question",
+    "source": "assets/icons/8-1639.svg",
+    "style": "Light",
+    "paint": "Text/Text Primary",
+    "exportRepair": "Remove internal frame masks that clip expanded strokes; preserve source vector paths, add optical safety margin."
+  }
+]

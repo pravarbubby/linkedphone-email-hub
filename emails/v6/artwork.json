@@ -1,0 +1,190 @@
+[
+  {
+    "id": "ai-replies",
+    "ready": true
+  },
+  {
+    "id": "auto-replies",
+    "ready": true
+  },
+  {
+    "id": "business-info",
+    "ready": true
+  },
+  {
+    "id": "call-summary",
+    "ready": true
+  },
+  {
+    "id": "greeting-after",
+    "ready": true
+  },
+  {
+    "id": "greeting-business",
+    "ready": true
+  },
+  {
+    "id": "greeting-intro",
+    "ready": true
+  },
+  {
+    "id": "hero-02-free-trial-has-started",
+    "ready": true
+  },
+  {
+    "id": "hero-03-youve-been-added",
+    "ready": true
+  },
+  {
+    "id": "hero-04-10dlc-registration-required",
+    "ready": true
+  },
+  {
+    "id": "hero-05-toll-free-registration-required",
+    "ready": true
+  },
+  {
+    "id": "hero-06-number-porting-request",
+    "ready": true
+  },
+  {
+    "id": "hero-07-mms-unsupported-file-type",
+    "ready": true
+  },
+  {
+    "id": "hero-08-ticket-assigned-to-you",
+    "ready": true
+  },
+  {
+    "id": "hero-09-receipt",
+    "ready": true
+  },
+  {
+    "id": "hero-10-subscription-updated",
+    "ready": true
+  },
+  {
+    "id": "hero-11-voicemail-alert",
+    "ready": true
+  },
+  {
+    "id": "hero-12-payment-failed",
+    "ready": true
+  },
+  {
+    "id": "hero-13-subscription-canceled",
+    "ready": true
+  },
+  {
+    "id": "hero-14-goodbye-for-now",
+    "ready": true
+  },
+  {
+    "id": "hero-15-text-message-alert",
+    "ready": true
+  },
+  {
+    "id": "hero-16-one-time-passcode",
+    "ready": true
+  },
+  {
+    "id": "hero-17-password-reset",
+    "ready": true
+  },
+  {
+    "id": "hero-18-verify-new-email",
+    "ready": true
+  },
+  {
+    "id": "hero-auto-attendant",
+    "ready": true
+  },
+  {
+    "id": "hero-features",
+    "ready": true
+  },
+  {
+    "id": "hero-greetings",
+    "ready": true
+  },
+  {
+    "id": "hero-quick-start",
+    "ready": true
+  },
+  {
+    "id": "hero-team",
+    "ready": true
+  },
+  {
+    "id": "hero-welcome",
+    "ready": true
+  },
+  {
+    "id": "lisa",
+    "ready": true
+  },
+  {
+    "id": "menu-builder",
+    "ready": true
+  },
+  {
+    "id": "numbers",
+    "ready": true
+  },
+  {
+    "id": "port-confirm",
+    "ready": true
+  },
+  {
+    "id": "port-live",
+    "ready": true
+  },
+  {
+    "id": "port-verify",
+    "ready": true
+  },
+  {
+    "id": "recording",
+    "ready": true
+  },
+  {
+    "id": "shared-inbox",
+    "ready": true
+  },
+  {
+    "id": "shared-number",
+    "ready": true
+  },
+  {
+    "id": "team-directory",
+    "ready": true
+  },
+  {
+    "id": "team-invite",
+    "ready": true
+  },
+  {
+    "id": "tickets",
+    "ready": true
+  },
+  {
+    "id": "transfer",
+    "ready": true
+  },
+  {
+    "id": "hero-first-call",
+    "ready": true
+  },
+  {
+    "id": "permissions",
+    "ready": true
+  },
+  {
+    "id": "hours",
+    "ready": true
+  },
+  {
+    "id": "notification",
+    "ready": true
+  }
+]
