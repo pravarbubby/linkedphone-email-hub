@@ -3,6 +3,7 @@
 !/index.html
 !/.gitignore
 !/.nojekyll
+!/.github/
 !/assets/
 !/emails/
 /emails/*
